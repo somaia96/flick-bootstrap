@@ -1,0 +1,554 @@
+:root{
+    --mainColor:#02d5ff;
+}
+*{
+    /* padding: 0;
+    margin: 0; */
+    /* text-decoration: none; */
+}
+section {
+    padding: 100px 0;
+}
+/* body{
+    font-family: sans-serif;
+} */
+
+/* The Start Of Nav */
+nav{
+    background-color: #161515;
+}
+nav .container>.row {
+    /* max-width: max-content !important; */
+}
+nav .phone{
+    color: #fff;
+}
+nav .phone div{
+    min-width: max-content !important;
+}
+nav .phone {
+    min-width: max-content !important;
+}
+nav .phone a{
+    color: #e8e8e8;
+    text-decoration: none;
+}
+nav .phone div span {
+    color: #e8e8e8;
+    font-size: 16px;
+
+}
+nav .phone div i {
+    font-size: 22px;
+}
+nav .logo {
+    color: var(--mainColor);
+    border: 3px solid var(--mainColor);
+    padding: 1px 8px;
+    font-size: 35px;
+    width: fit-content;
+    letter-spacing: 1px;
+}
+nav .list {
+    /* display: flex; */
+    /* justify-content: space-between;
+    gap: 20px; */
+    /* align-items: center; */
+}
+@media (max-width: 768px) {
+    nav .container{
+        
+    padding-right: var(--bs-gutter-x,1.75rem);
+    padding-left: var(--bs-gutter-x,1.75rem);
+    }
+    nav .phone ,nav .logo,nav .list{
+        max-width: 33%;
+    }
+nav .phone div {
+    max-width: fit-content;
+}
+    }
+nav .list .touch {
+    background-color: var(--mainColor);
+    padding: 18px 30px;
+    font-size: 18px;
+    color: #101010d7;
+    width: max-content;
+}
+nav .list .list {
+    color: #fff;
+    font-size: 30px;
+}
+/* The End Of Nav */
+
+/* The Start Of Front Section */
+.front{
+    background-image: url(../images/a.png);
+    background-attachment: fixed;
+    height: 100vh;
+    color: #fff;
+    font-size: 30px;
+}
+.front .content {
+    color: var(--mainColor);
+    font-size: 40px;
+}
+/* The End Of Front Section */
+
+/* The Start Of mess Section */
+section.mess {
+    background-color: rgb(10 38 64);
+}
+section.mess .container .row{
+    /* gap: 50px; */
+}
+section.mess .container .air {
+    /* flex-basis: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-start; */
+    color: #fff;
+    gap: 20px;
+}
+section.mess .container .air .lead {
+    /* display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #cfcfcf;
+    font-size: 18px; */
+}
+section.mess .container .air .onAir {
+    display: flex;
+    border: 2px solid var(--mainColor);
+    width: 65%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px 10px;
+}
+section.mess .container .air .onAir span{
+    color: var(--mainColor);
+    font-size: 40px;
+    font-weight: bold;
+} 
+section.mess .container .air .onAir .mic{
+    background-color: #fff;
+    height: 80px;
+    width: 60px;
+}
+section.mess .container .air>span{
+    color: var(--mainColor);
+    font-size: 25px;
+    font-weight: bold;
+}
+section.mess .container .mess {
+    /* flex-basis: 50%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #cfcfcf;
+    gap: 10px;
+}
+section.mess .container .mess .name {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+}
+section.mess .container .mess .name div{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    font-size: 20px;
+    gap: 10px;
+}
+section.mess .container .mess .name div input{
+    height: 50px;
+    border: 1px solid #949494;
+    background-color: transparent;
+    width: 100%;
+}
+section.mess .container .mess .contact {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+}
+section.mess .container .mess .contact div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    flex-basis: 50%;
+}
+section.mess .container .mess .contact div input{
+    height: 50px;
+    border: 1px solid #949494;
+    background-color: transparent;
+    width: 100%;
+}
+section.mess .container .mess .select{
+    flex-basis: 100%;
+    width: 100%;
+}
+section.mess .container .mess .select select{
+    height: 50px;
+    width: 100%;
+    border: 1px solid #949494;
+    padding:0 10px;
+    background-color: transparent;
+    color: #cfcfcf;
+    font-size: 20px;
+}
+section.mess .container .mess .mess{
+    flex-basis: 100%;
+    width: 100%;
+}
+section.mess .container .mess .mess div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+section.mess .container .mess .mess textarea{
+    border: 1px solid #949494;
+    width: 100%;
+    background-color: transparent;
+}
+section.mess .container .mess .btn{
+    flex-basis: 100%;
+    width: 100%;
+}
+section.mess .container .mess .btn button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: var(--mainColor);
+    color: rgb(10 38 64);
+    font-size: 16px;
+    font-weight: normal;
+    border: none;
+}
+/* The End Of mess Section */
+
+/* The Start Of Single Section */
+section.single{
+    background-image: url(../images/b.jpg);
+    background-attachment: fixed;
+}
+@media (max-width: 768px) {
+section.single{
+    background-image:linear-gradient(to bottom ,rgb(255, 255, 255) 0%,rgb(123, 123, 129) 42%, rgb(0, 0, 0) 100%);
+    background-attachment: scroll;
+}
+}
+section.single .container{
+    display: flex;
+    /* background-color: #070707a3; */
+    flex-direction: column;
+    gap: 30px;
+}
+section.single .container h2{
+    color: var(--mainColor);
+    font-size: 100px;
+}
+section.single .container .title{
+    color: #fff;
+    font-size: 50px;
+    font-family: system-ui;
+}
+section.single .container .small{
+    color: var(--mainColor);
+    font-size: 18px;
+    font-family: system-ui;
+}
+section.single .container .lead{
+    display: flex;
+    font-family: system-ui;
+    flex-direction: column;
+    color: #cfcfcf;
+    gap: 5px;
+    font-size: 18px;
+}
+section.single .container .btn-book{
+    background-color: var(--mainColor);
+    padding: 18px 16px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+}
+/* The End Of Single Section */
+
+/* The Start Of multible Section */
+section.multible{
+    background-image: url(../images/c.jpg);
+    background-attachment: fixed;
+}
+@media (max-width: 768px) {
+section.multible{
+    background-image:linear-gradient(to bottom ,rgb(255, 255, 255) 0%,rgb(123, 123, 129) 42%, rgb(0, 0, 0) 100%);
+    background-attachment: scroll;
+}
+section.multible .container {
+    justify-content: flex-start;
+}
+}
+section.multible .container{
+    display: flex;
+    /* background-color: #070707a3; */
+    justify-content: flex-end;
+}
+section.multible .container  .right{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+section.multible .container .right h2{
+    color: var(--mainColor);
+    font-size: 100px;
+}
+section.multible .container .right .title{
+    color: #fff;
+    font-size: 50px;
+    font-family: system-ui;
+}
+section.multible .container .right .small{
+    color: var(--mainColor);
+    font-size: 18px;
+    font-family: system-ui;
+}
+section.multible .container .right .lead{
+    display: flex;
+    font-family: system-ui;
+    flex-direction: column;
+    color: #cfcfcf;
+    gap: 5px;
+    font-size: 18px;
+}
+section.multible .container .right .btn-book{
+    background-color: var(--mainColor);
+    padding: 18px 16px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+}
+/* The End Of multible Section */
+
+
+/* The Start Of podcast Section */
+section.podcast{
+    background-image: url(../images/d.jpg);
+    background-attachment: fixed;
+}
+@media (max-width: 768px) {
+section.podcast{
+    background-image: linear-gradient(to bottom ,rgb(255, 255, 255) 0%,rgb(123, 123, 129) 42%, rgb(0, 0, 0) 100%);
+    background-attachment: scroll;
+}
+}
+section.podcast .container{
+    display: flex;
+    /* background-color: #070707cc; */
+    flex-direction: column;
+    gap: 30px;
+}
+section.podcast .container h2{
+    color: var(--mainColor);
+    font-size: 100px;
+}
+section.podcast .container .title{
+    color: #fff;
+    font-size: 50px;
+    font-family: system-ui;
+}
+section.podcast .container .small{
+    color: var(--mainColor);
+    font-size: 18px;
+    font-family: system-ui;
+}
+section.podcast .container .lead{
+    display: flex;
+    font-family: system-ui;
+    flex-direction: column;
+    color: #cfcfcf;
+    gap: 5px;
+    font-size: 18px;
+}
+section.podcast .container .btn-book{
+    background-color: var(--mainColor);
+    padding: 18px 16px;
+    width: 150px;
+    border: none;
+    font-size: 16px;
+    color: #333333;
+}
+/* The End Of podcast Section */
+
+/* The Start Of about Section */
+
+section.about {
+    background-color: #0a0a0a;
+}
+section.about .container {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+section.about .container h2{
+    font-size: 45px;
+}
+/* Cards WithOut Pictures */
+
+section.about .container .top .card{
+    background-color: #111111;
+}
+section.about .container .top p span{
+    color: var(--mainColor);
+}
+/* Cards WithOut Pictures */
+
+/* Cards With Pictures */
+section.about .container ol{
+    list-style: disc;
+    color: #cfcfcf;
+    padding: 0;
+    list-style-position: inside;
+}
+/* Cards With Pictures */
+
+/* The End Of about Section */
+
+/* The Start Of step Section */
+section.step {
+    padding: 80px;
+    text-align: center;
+}
+section.step h2{
+    color: rgb(0, 18, 83);
+    font-size: 45px;
+    font-weight: normal;
+}
+section.step span{
+    color: var(--mainColor);
+    font-size: 45px;
+    font-weight: normal;
+}
+/* The End Of step Section */
+
+/* The Start Of pic Section */
+section.pic {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+section.pic div{
+    overflow: hidden;
+}
+section.pic img{
+    width: 100%;
+    filter: saturate(0.5);
+    height: 100%;
+}
+section.pic img:hover{
+    transform: scale(1.1);
+    transition: all .5s ease-in-out;
+}
+section.pic .one {
+    display: flex;
+}
+section.pic .one .left {
+    flex-basis: 75%;
+}
+section.pic .one .right{
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+section.pic .one .right div{
+    flex-basis: 50%;
+}
+section.pic .two {
+    display: flex;
+}
+section.pic .two .left {
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+}
+section.pic .two .left div{
+    flex-basis: 50%;
+}
+section.pic .two .right{
+    flex-basis: 75%;
+}
+section.pic .three {
+    display: flex;
+}
+section.pic .three .left {
+    flex-basis: 75%;
+}
+section.pic .three .right{
+    flex-basis: 25%;
+}
+/* The End Of pic Section */
+
+/* The Start Of inquire Section */
+section.inquire .container>.mess{
+    background-color: #18191b69;
+    padding: 30px;
+    padding-bottom: 60px;
+    border-radius: 10px;
+}
+section.inquire .container .air .inquire{
+    color: #cfcfcf;
+}
+section.inquire .container .air .lead{
+    color: #cfcfcf;
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* The End Of inquire Section */
+
+/* The Start Of footer Section */
+footer{
+    background-color: #111111;
+}
+footer .container {
+    gap: 60px;
+    color: #cfcfcf;
+}
+footer .container .top div {
+    gap: 20px;
+}
+footer .container .top div p{
+    color: #6c757d;
+}
+footer .container .top div p a{
+    color: #6c757d;
+    font-size: 20px;
+    text-decoration: underline;
+}
+footer .container .top div ol{
+    list-style: disc;
+    list-style-position: inside;
+}
+footer .container .top div .icons{
+    gap: 10px;
+}
+footer .container .top div .icons i{
+    font-size: 26px;
+    width: 18%;
+}
+footer .container .top div p:hover,
+footer .container .top div p a:hover,
+footer .container .top div ol li:hover,
+footer .container .top div .icons i:hover{
+    color: var(--mainColor);
+}
+footer .container .down {
+    color: #b4b4b4;
+}
+/* The End Of footer Section */
